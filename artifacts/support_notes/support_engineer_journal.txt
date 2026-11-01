@@ -1,0 +1,46 @@
+support engineer notes -- ticket #AR-4471, bench reproduction
+(unstructured, just typing as I go, cleaning up later maybe)
+
+- CPU spikes hard sometimes, not every time.
+- Seems to happen right after the broker connection drops, not before.
+- Saw one actual process restart on the bench unit too, but not every
+  time the CPU spikes -- only sometimes.
+- top showed ~100% CPU for the gateway process during one of the
+  outages. one core pegged, not all of them.
+- a colleague mentioned seeing something similar on an older release,
+  but without the restart part. not sure if related.
+- memory (RSS) looked flat in my ~2 minute test runs. so maybe not a
+  leak after all? not confident either way, my test was short.
+- log has a "no heartbeat" error right before the restart happens.
+- the gap before that restart error seems to line up pretty closely
+  with the configured watchdog timeout. might just be how watchdogs
+  work, might be worth a second look.
+- noticed a "throttle_pct out-of-range" warning once. didn't seem
+  connected to the connectivity issue -- saw it again later while
+  everything was running fine.
+- network team confirmed cable/switch port is fine, I swapped it myself
+  too, no change.
+- ran it overnight with no karts on track, still happened. so it's not
+  "too much traffic on track" like I first assumed.
+- the log counts how many connect() failures happened per second during
+  an outage -- six figures, which surprised me. that's not a normal
+  retry rate for anything I've worked on before.
+- wondered briefly about DNS, but broker_host is a plain host/IP and
+  resolves fine. probably not that.
+- the "queue=" number in the diagnostics line climbs during an outage
+  and drops back to 0 after. buffering seems to be doing its job there.
+- saw two reconnects happen within a couple seconds of each other once.
+  gave me a vague "something's touching something it shouldn't" feeling
+  but I didn't have time to dig further.
+- attached gdb during one outage just to look around. process kept
+  running fine in that session, nothing crashed while I was watching.
+- the colleague from last week said THEY saw an actual crash once (not
+  a watchdog restart -- a real crash), but couldn't get it to happen
+  again when they tried.
+- release notes mention a session leak got fixed in 3.4. made me wonder
+  if that fix itself could have introduced something new. no idea,
+  just a thought.
+- for a while I suspected sample_interval_ms (lower = more load), but
+  that doesn't explain the restart on its own.
+- still haven't figured out: why does the watchdog apparently never get
+  fed while the queue is backed up? might be nothing, might not be.

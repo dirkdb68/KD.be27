@@ -1,0 +1,23 @@
+services:
+  broker:
+    build:
+      context: .
+      dockerfile: docker/broker/Dockerfile
+    ports:
+      - "1883:1883"
+    restart: unless-stopped
+
+  gateway:
+    build:
+      context: ./source/application
+    depends_on:
+      - broker
+    environment:
+      GATEWAY_BROKER_HOST: broker
+      GATEWAY_BROKER_PORT: "1883"
+    # SYS_PTRACE so gdb/strace can attach to the running process from
+    # inside the container.
+    cap_add:
+      - SYS_PTRACE
+    # Same supervision as in the field: if the process exits, bring it back.
+    restart: unless-stopped

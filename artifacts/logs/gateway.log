@@ -1,0 +1,147 @@
+2026-10-30 14:59:49.978 [INFO ] Apex Raceway Trackside Telemetry Gateway v3.4.0 starting
+2026-10-30 14:59:49.978 [INFO ] config: broker=127.0.0.1:1883 client_id=apexraceway-gateway topic=apexraceway/track1/telemetry sample_ms=250 watchdog_s=20
+2026-10-30 14:59:49.979 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (1 failures in the last 538931ms)
+2026-10-30 14:59:49.979 [INFO ] mqtt: session swapped in (attempt=1)
+2026-10-30 14:59:49.979 [INFO ] mqtt: connect callback OK
+2026-10-30 14:59:54.979 [INFO ] diag: uptime=5s queue=0 connected=1 rss_kb=5020
+2026-10-30 14:59:59.980 [INFO ] diag: uptime=10s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:00:04.601 [WARN ] mqtt: disconnected (rc=7)
+2026-10-30 15:00:04.601 [WARN ] mqtt: loop() rc=7 (The connection was lost.)
+2026-10-30 15:00:04.601 [WARN ] mqtt: connect() failed: Connection refused (1 attempts in the last 553554ms)
+2026-10-30 15:00:04.750 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (1 failures in the last 14771ms)
+2026-10-30 15:00:04.980 [INFO ] diag: uptime=15s queue=1 connected=0 rss_kb=5020
+2026-10-30 15:00:05.601 [WARN ] mqtt: connect() failed: Connection refused (127640 attempts in the last 1000ms)
+2026-10-30 15:00:05.753 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:06.601 [WARN ] mqtt: connect() failed: Connection refused (133446 attempts in the last 1000ms)
+2026-10-30 15:00:06.757 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:07.601 [WARN ] mqtt: connect() failed: Connection refused (132654 attempts in the last 1000ms)
+2026-10-30 15:00:07.761 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:08.540 [INFO ] mqtt: session swapped in (attempt=518457)
+2026-10-30 15:00:08.540 [INFO ] mqtt: connect callback OK
+2026-10-30 15:00:09.980 [INFO ] diag: uptime=20s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:00:14.613 [WARN ] mqtt: disconnected (rc=7)
+2026-10-30 15:00:14.613 [WARN ] mqtt: loop() rc=7 (The connection was lost.)
+2026-10-30 15:00:14.613 [WARN ] mqtt: connect() failed: Connection refused (124715 attempts in the last 7011ms)
+2026-10-30 15:00:14.762 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (16 failures in the last 7000ms)
+2026-10-30 15:00:14.980 [INFO ] diag: uptime=25s queue=1 connected=0 rss_kb=5020
+2026-10-30 15:00:15.612 [WARN ] mqtt: connect() failed: Connection refused (120992 attempts in the last 1000ms)
+2026-10-30 15:00:15.765 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:00:16.612 [WARN ] mqtt: connect() failed: Connection refused (124264 attempts in the last 1000ms)
+2026-10-30 15:00:16.768 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:00:17.612 [WARN ] mqtt: connect() failed: Connection refused (127283 attempts in the last 1000ms)
+2026-10-30 15:00:17.770 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:00:18.612 [WARN ] mqtt: connect() failed: Connection refused (130826 attempts in the last 1000ms)
+2026-10-30 15:00:18.774 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:19.612 [WARN ] mqtt: connect() failed: Connection refused (132368 attempts in the last 1000ms)
+2026-10-30 15:00:19.778 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:19.980 [INFO ] diag: uptime=30s queue=21 connected=0 rss_kb=5020
+2026-10-30 15:00:20.612 [WARN ] mqtt: connect() failed: Connection refused (131637 attempts in the last 1000ms)
+2026-10-30 15:00:20.782 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:00:21.612 [WARN ] mqtt: connect() failed: Connection refused (131344 attempts in the last 1000ms)
+2026-10-30 15:00:21.786 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:22.612 [WARN ] mqtt: connect() failed: Connection refused (132907 attempts in the last 1000ms)
+2026-10-30 15:00:22.789 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:23.612 [WARN ] mqtt: connect() failed: Connection refused (130149 attempts in the last 1000ms)
+2026-10-30 15:00:23.793 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:24.612 [WARN ] mqtt: connect() failed: Connection refused (132178 attempts in the last 1000ms)
+2026-10-30 15:00:24.797 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:24.981 [INFO ] diag: uptime=35s queue=41 connected=0 rss_kb=5020
+2026-10-30 15:00:25.612 [WARN ] mqtt: connect() failed: Connection refused (130527 attempts in the last 1000ms)
+2026-10-30 15:00:25.801 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:00:26.612 [WARN ] mqtt: connect() failed: Connection refused (131798 attempts in the last 1000ms)
+2026-10-30 15:00:26.805 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:27.612 [WARN ] mqtt: connect() failed: Connection refused (131685 attempts in the last 1000ms)
+2026-10-30 15:00:27.808 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:28.612 [WARN ] mqtt: connect() failed: Connection refused (132790 attempts in the last 1000ms)
+2026-10-30 15:00:28.812 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:00:29.556 [INFO ] mqtt: session swapped in (attempt=2463726)
+2026-10-30 15:00:29.556 [INFO ] mqtt: connect callback OK
+2026-10-30 15:00:29.981 [INFO ] diag: uptime=40s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:00:34.982 [INFO ] diag: uptime=45s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:00:39.982 [INFO ] diag: uptime=50s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:00:41.643 [WARN ] mqtt: disconnected (rc=7)
+2026-10-30 15:00:41.644 [WARN ] mqtt: loop() rc=7 (The connection was lost.)
+2026-10-30 15:00:41.644 [WARN ] mqtt: connect() failed: Connection refused (124520 attempts in the last 13031ms)
+2026-10-30 15:00:41.792 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (15 failures in the last 12981ms)
+2026-10-30 15:00:42.643 [WARN ] mqtt: connect() failed: Connection refused (124334 attempts in the last 1000ms)
+2026-10-30 15:00:42.803 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1010ms)
+2026-10-30 15:00:43.644 [WARN ] mqtt: connect() failed: Connection refused (132630 attempts in the last 1001ms)
+2026-10-30 15:00:43.806 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:44.644 [WARN ] mqtt: connect() failed: Connection refused (131574 attempts in the last 1000ms)
+2026-10-30 15:00:44.810 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:00:44.982 [INFO ] diag: uptime=55s queue=13 connected=0 rss_kb=5020
+2026-10-30 15:00:45.644 [WARN ] mqtt: connect() failed: Connection refused (132524 attempts in the last 1000ms)
+2026-10-30 15:00:45.813 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:00:46.644 [WARN ] mqtt: connect() failed: Connection refused (132376 attempts in the last 1000ms)
+2026-10-30 15:00:46.817 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:00:47.644 [WARN ] mqtt: connect() failed: Connection refused (131422 attempts in the last 1000ms)
+2026-10-30 15:00:47.820 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:00:48.582 [INFO ] mqtt: session swapped in (attempt=3372244)
+2026-10-30 15:00:48.583 [INFO ] mqtt: connect callback OK
+2026-10-30 15:00:49.983 [INFO ] diag: uptime=60s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:00:54.983 [INFO ] diag: uptime=65s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:00:59.984 [INFO ] diag: uptime=70s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:01:04.984 [INFO ] diag: uptime=75s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:01:06.679 [WARN ] mqtt: disconnected (rc=7)
+2026-10-30 15:01:06.679 [WARN ] mqtt: loop() rc=7 (The connection was lost.)
+2026-10-30 15:01:06.679 [WARN ] mqtt: connect() failed: Connection refused (123657 attempts in the last 19034ms)
+2026-10-30 15:01:06.827 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (16 failures in the last 19008ms)
+2026-10-30 15:01:07.678 [WARN ] mqtt: connect() failed: Connection refused (124015 attempts in the last 1000ms)
+2026-10-30 15:01:07.830 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:08.678 [WARN ] mqtt: connect() failed: Connection refused (132178 attempts in the last 1000ms)
+2026-10-30 15:01:08.834 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:09.678 [WARN ] mqtt: connect() failed: Connection refused (130227 attempts in the last 1000ms)
+2026-10-30 15:01:09.838 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:09.985 [INFO ] diag: uptime=80s queue=13 connected=0 rss_kb=5020
+2026-10-30 15:01:10.616 [INFO ] mqtt: session swapped in (attempt=3883232)
+2026-10-30 15:01:10.616 [INFO ] mqtt: connect callback OK
+2026-10-30 15:01:14.985 [INFO ] diag: uptime=85s queue=0 connected=1 rss_kb=5020
+2026-10-30 15:01:18.695 [WARN ] mqtt: disconnected (rc=7)
+2026-10-30 15:01:18.695 [WARN ] mqtt: loop() rc=7 (The connection was lost.)
+2026-10-30 15:01:18.695 [WARN ] mqtt: connect() failed: Connection refused (124567 attempts in the last 9017ms)
+2026-10-30 15:01:18.844 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (16 failures in the last 9006ms)
+2026-10-30 15:01:19.695 [WARN ] mqtt: connect() failed: Connection refused (128046 attempts in the last 1000ms)
+2026-10-30 15:01:19.848 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:19.985 [INFO ] diag: uptime=90s queue=5 connected=0 rss_kb=5020
+2026-10-30 15:01:20.695 [WARN ] mqtt: connect() failed: Connection refused (133762 attempts in the last 1000ms)
+2026-10-30 15:01:20.851 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:21.695 [WARN ] mqtt: connect() failed: Connection refused (133355 attempts in the last 1000ms)
+2026-10-30 15:01:21.854 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:22.695 [WARN ] mqtt: connect() failed: Connection refused (133669 attempts in the last 1000ms)
+2026-10-30 15:01:22.857 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:23.696 [WARN ] mqtt: connect() failed: Connection refused (133367 attempts in the last 1000ms)
+2026-10-30 15:01:23.861 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:24.696 [WARN ] mqtt: connect() failed: Connection refused (134208 attempts in the last 1000ms)
+2026-10-30 15:01:24.865 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:24.985 [INFO ] diag: uptime=95s queue=25 connected=0 rss_kb=5020
+2026-10-30 15:01:25.695 [WARN ] mqtt: connect() failed: Connection refused (133043 attempts in the last 1000ms)
+2026-10-30 15:01:25.868 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:26.695 [WARN ] mqtt: connect() failed: Connection refused (133334 attempts in the last 1000ms)
+2026-10-30 15:01:26.871 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:27.695 [WARN ] mqtt: connect() failed: Connection refused (132641 attempts in the last 1000ms)
+2026-10-30 15:01:27.875 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:28.695 [WARN ] mqtt: connect() failed: Connection refused (132697 attempts in the last 1000ms)
+2026-10-30 15:01:28.878 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:29.695 [WARN ] mqtt: connect() failed: Connection refused (133128 attempts in the last 1000ms)
+2026-10-30 15:01:29.882 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:29.986 [INFO ] diag: uptime=100s queue=45 connected=0 rss_kb=5020
+2026-10-30 15:01:30.695 [WARN ] mqtt: connect() failed: Connection refused (133640 attempts in the last 1000ms)
+2026-10-30 15:01:30.886 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:31.695 [WARN ] mqtt: connect() failed: Connection refused (134038 attempts in the last 1000ms)
+2026-10-30 15:01:31.890 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1005ms)
+2026-10-30 15:01:32.696 [WARN ] mqtt: connect() failed: Connection refused (133809 attempts in the last 1000ms)
+2026-10-30 15:01:32.894 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:33.695 [WARN ] mqtt: connect() failed: Connection refused (132880 attempts in the last 1000ms)
+2026-10-30 15:01:33.898 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:34.695 [WARN ] mqtt: connect() failed: Connection refused (133647 attempts in the last 1000ms)
+2026-10-30 15:01:34.902 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1004ms)
+2026-10-30 15:01:34.986 [INFO ] diag: uptime=105s queue=65 connected=0 rss_kb=5020
+2026-10-30 15:01:35.696 [WARN ] mqtt: connect() failed: Connection refused (132519 attempts in the last 1000ms)
+2026-10-30 15:01:35.905 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:36.697 [WARN ] mqtt: connect() failed: Connection refused (133082 attempts in the last 1002ms)
+2026-10-30 15:01:36.908 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:37.697 [WARN ] mqtt: connect() failed: Connection refused (133429 attempts in the last 1000ms)
+2026-10-30 15:01:37.911 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:38.697 [WARN ] mqtt: connect() failed: Connection refused (131868 attempts in the last 1000ms)
+2026-10-30 15:01:38.915 [WARN ] publisher: publish failed (rc=-1), re-queuing reading (20 failures in the last 1003ms)
+2026-10-30 15:01:39.004 [ERROR] watchdog: no heartbeat for 20409 ms (timeout=20s) -- restarting
